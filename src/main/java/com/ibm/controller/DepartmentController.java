@@ -32,4 +32,10 @@ public class DepartmentController {
 	public Department getDept(@PathVariable String deptname){
 		return departmentService.getDeptByName(deptname);
 	}
+
+	@GetMapping("/test")
+	public String test() {
+		return "WORKING ✅";
+	}
+
 }
