@@ -10,7 +10,7 @@ public class SpringbootMs1Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootMs1Application.class, args);
-		System.out.println("it is running in via jenkins - new dep ");
+		System.out.println("it is running in via jenkins just removed by starting the server ");
 	}
 
 }
